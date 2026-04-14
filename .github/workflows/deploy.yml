@@ -22,4 +22,4 @@ jobs:
     
     - name: Deploy to App Engine
       run: |
-        gcloud app deploy --quiet --project=${PROJECT_ID} --bucket=gs://staging-icai2025-489720
+        gcloud app deploy --quiet --project=${PROJECT_ID}
